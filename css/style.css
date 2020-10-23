@@ -1,0 +1,48 @@
+body {
+		font-size: 16px;
+}
+div {
+
+}
+.wrapper {
+	max-width: 1160px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+.main-header {
+
+	background: #eeeeee;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: flex-start;	
+}
+
+.header__links {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__list {
+	display: flex;
+	}
+.header__list li {
+	list-style: none;
+	text-decoration-style: none;
+	margin: 0 22px;
+}
+
+.header__bottom {
+	max-width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+} 
+.hero {
+	display: flex;
+	justify-content: space-between;
+}
+
+.hero__slogan {
+	font-size: 55px;
+}
