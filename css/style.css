@@ -1,28 +1,21 @@
-body {
-		font-size: 16px;
-}
-div {
-
-}
 .wrapper {
 	max-width: 1160px;
 	padding: 0 20px;
 	margin: 0 auto;
+	font-size: 16px;
+	background-color: #eeeeee;
+	width: 100%;
 }
-.main-header {
-
-	background: #eeeeee;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	align-items: flex-start;	
-}
-
 .header__links {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
 }
-
+.header__item {
+	text-decoration: none;
+	color: black;
+}
 .header__list {
 	display: flex;
 	}
@@ -31,13 +24,6 @@ div {
 	text-decoration-style: none;
 	margin: 0 22px;
 }
-
-.header__bottom {
-	max-width: 100%;
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-} 
 .hero {
 	display: flex;
 	justify-content: space-between;
@@ -45,4 +31,27 @@ div {
 
 .hero__slogan {
 	font-size: 55px;
+}
+.hero__button {
+	color: whitesmoke;
+	background-color: red;
+	text-transform: uppercase;
+}
+.features {
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	padding: 0;
+}
+.sites-button {
+	background-color: red;
+}
+.apps-button {
+	background-color: green;
+}
+.presentation-button {
+	background-color: yellow;
+}
+.features__subtitle{
+	text-transform: uppercase;
 }
