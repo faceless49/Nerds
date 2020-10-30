@@ -1,15 +1,52 @@
+@font-face {
+	font-family: 'Roboto';
+	/* font-style: normal;
+	font-weight: 500; */
+	src: url("/fonts/web/roboto.woff");
+}
+
+
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box; }
+
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: 'Roboto', 'OpenSans', 'sans-serif';
+
+}
+
+
 .wrapper {
 	max-width: 1160px;
-	padding: 0 20px;
+	padding:0 20px;
 	margin: 0 auto;
 	font-size: 16px;
 	background-color: #eeeeee;
 	width: 100%;
 }
+
+.button {
+	padding: 20px 40px;
+	border: none;
+	background-color: #fb565a;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.header {
+	background-color: #eeeeee;
+	}
 .header__links {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 50px 0;
 	text-transform: uppercase;
 }
 .header__item {
@@ -27,37 +64,73 @@
 .hero {
 	display: flex;
 	justify-content: space-between;
+	background-color: #eeeeee;
 }
 
+.hero__container {
+	display: flex;
+	justify-content: space-between;
+}
 .hero__slogan {
 	font-size: 55px;
+	margin-bottom: 15px;
+}
+.image-slider {
+	padding: 0;
+}
+.hero__text {
+	margin-top: 23px;
 }
 .hero__button {
 	color: whitesmoke;
-	background-color: red;
+	background-color: #fb565a;
 	text-transform: uppercase;
+	padding: 15px 20px;
 }
+
 .features {
 	display: flex;
 	justify-content: space-between;
+	align-content: center;
 	background-color: white;
 }
-.sites-button {
-	background-color: red;
+.hero__button--red{
+	background-color: #fb565a;
 }
-.apps-button {
-	background-color: green;
+.hero__button--green {
+	background-color: #00ca74;
 }
-.presentation-button {
-	background-color: yellow;
+.hero__button--yellow {
+	background-color: #efc84a;
 }
 .features__subtitle{
 	text-transform: uppercase;
 }
+
+.orderlist {
+	list-style: none;
+}
 .description {
 	display: flex;
 	background-color: white;
+	justify-content: center;
+}
+.features {
+	margin: 80px auto;
+}
+.description {
+	margin: 2px auto;
+	border-top: 2px #eeeeee solid;
+}
+.features__subtitle {
+	margin-top: 30px;
+}
+.description__slogan {
+	margin-bottom: 25px;
+}
+.description__order-list {
+	margin-bottom: 20px;
 }
 .orderlist {
-	list-style: none;
+
 }
