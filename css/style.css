@@ -41,7 +41,6 @@
 	display: flex;
 	justify-content: space-between;
 	background-color: white;
-	padding: 0;
 }
 .sites-button {
 	background-color: red;
@@ -54,4 +53,11 @@
 }
 .features__subtitle{
 	text-transform: uppercase;
+}
+.description {
+	display: flex;
+	background-color: white;
+}
+.orderlist {
+	list-style: none;
 }
