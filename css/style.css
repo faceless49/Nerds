@@ -46,7 +46,8 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 50px 0;
+	padding-top: 50px;
+	padding-bottom: ;
 	text-transform: uppercase;
 }
 .header__item {
@@ -61,25 +62,45 @@ body {
 	text-decoration-style: none;
 	margin: 0 22px;
 }
+.header-cart {
+	margin-right: 20px;
+}
+
 .hero {
 	display: flex;
 	justify-content: space-between;
 	background-color: #eeeeee;
 }
+.somediv {
 
+}
 .hero__container {
 	display: flex;
 	justify-content: space-between;
+	align-content: flex-start;
+	padding: 0;
+	margin: 0;
 }
-.hero__slogan {
+.hero__slogan--started {
 	font-size: 55px;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
+	padding: 0;
+}
+.hero__slogan--smallsubtitle {
+	font-family: 'roboto';
+	src: url("/fonts/web/robotomedi.woff");
+	font-size: 45px;
+	margin-bottom: 40px;
 }
 .image-slider {
 	padding: 0;
 }
 .hero__text {
 	margin-top: 23px;
+	margin-bottom: 40px;
+	font-size: 16px;
+	color: #283136;
+
 }
 .hero__button {
 	color: whitesmoke;
@@ -125,12 +146,71 @@ body {
 .features__subtitle {
 	margin-top: 30px;
 }
-.description__slogan {
+.discription__container {
+	margin-top: 40px;
+	padding: 0;
+}
+.description {
+	display: flex;
+	justify-content: space-between;
+	
+}
+.description__text {
+	margin-bottom: 50px;
+}
+.description__order-list, {
+	
+}
+.description__order-list--subtitle {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 35px;
+}
+.description__item{
 	margin-bottom: 25px;
 }
-.description__order-list {
-	margin-bottom: 20px;
-}
-.orderlist {
 
+
+.description__item li ::before {
+	content: *--*;
+	position: absolute;
+	width: 25px;
+	height: 2px;
+	background-color: #fb565a;
+}
+.description__statistic {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: space-around;
+	margin-top: 20px;
+}
+.description__subtitle {
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+.description__items--subtitle {
+	font-size: 45px;
+	font-weight: bold;
+}
+.description__items--plus {
+	font-size: 16px;
+	font-weight: normal;
+}
+.results {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+.description__subtitle {
+	justify-content: center;
+
+}
+.description__logo {
+	align-self: center;
+}
+.upindex {
+	font-size: 20px;
+	vertical-align: super;
 }
