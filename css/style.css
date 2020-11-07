@@ -27,7 +27,6 @@ body {
 	padding:0 20px;
 	margin: 0 auto;
 	font-size: 16px;
-	background-color: #eeeeee;
 	width: 100%;
 }
 
@@ -90,7 +89,8 @@ body {
 	font-family: 'roboto';
 	src: url("/fonts/web/robotomedi.woff");
 	font-size: 45px;
-	margin-bottom: 40px;
+	margin-bottom: 35px;
+	margin-top: 35px;
 }
 .image-slider {
 	padding: 0;
@@ -113,7 +113,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-content: center;
-	background-color: white;
+	background-color: #ffffff;
 }
 .hero__button--red{
 	background-color: #fb565a;
@@ -135,6 +135,9 @@ body {
 	display: flex;
 	background-color: white;
 	justify-content: center;
+}
+.description__logo {
+	margin-top: 20px;
 }
 .features {
 	margin: 80px auto;
@@ -164,9 +167,9 @@ body {
 .description__order-list--subtitle {
 	text-transform: uppercase;
 	font-weight: bold;
-	margin-bottom: 35px;
+	margin-bottom: 30px;
 }
-.description__item{
+.description__item {
 	margin-bottom: 25px;
 }
 
@@ -186,31 +189,50 @@ body {
 	margin-top: 20px;
 }
 .description__subtitle {
+	text-transform: uppercase;
+	font-weight: bold;
 	margin-top: 40px;
-	margin-bottom: 50px;
+	margin-bottom: 0;
 }
 .description__items--subtitle {
 	font-size: 45px;
 	font-weight: bold;
+	padding-left: 5px;
 }
 .description__items--plus {
+	display: block;
+	padding: 10px 10px 0 5px;
 	font-size: 16px;
 	font-weight: normal;
 }
 .results {
 	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	
-}
-.description__subtitle {
-	justify-content: center;
-
-}
-.description__logo {
-	align-self: center;
-}
+	margin: 0 auto;
+	padding: -20px 0;
+	justify-content: space-between;
+	align-items: flex-start;
+	}
 .upindex {
 	font-size: 20px;
 	vertical-align: super;
+}
+.friendship {
+	margin: 2px auto;
+	border-top: 2px #eeeeee solid;
+	border-bottom: 2px #eeeeee solid;
+	width: 1100px;
+	padding: 45px 0;
+}
+.friendship__links {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: flex-start;
+	padding-top: 0px;
+	background-color: #ffffff;
+}
+.friendship__links--academy {
+	border-right: 2px #cccccc solid;
+	padding: 0 50px 0 0;
+	height: 33%;
 }
