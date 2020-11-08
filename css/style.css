@@ -123,15 +123,21 @@ body {
 
 .features {
 <<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
 	display: flex;
 	justify-content: space-between;
 	align-content: center;
 	background-color: #ffffff;
 =======
+>>>>>>> Stashed changes
   display: flex;
   justify-content: space-between;
   align-content: center;
   background-color: white;
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 >>>>>>> Stashed changes
 }
 .hero__button--red {
@@ -183,6 +189,15 @@ body {
 }
 .description__order-list--subtitle {
 <<<<<<< Updated upstream
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+.description__item {
+  margin-bottom: 25px;
+}
+=======
+<<<<<<< Updated upstream
 	text-transform: uppercase;
 	font-weight: bold;
 	margin-bottom: 30px;
@@ -198,6 +213,7 @@ body {
   margin-bottom: 25px;
 >>>>>>> Stashed changes
 }
+>>>>>>> Stashed changes
 
 /* .description__item li ::before {
   content: * -- *;
@@ -214,72 +230,36 @@ body {
 }
 .description__subtitle {
 <<<<<<< Updated upstream
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+=======
+<<<<<<< Updated upstream
 	text-transform: uppercase;
 	font-weight: bold;
 	margin-top: 40px;
 	margin-bottom: 0;
+>>>>>>> Stashed changes
 }
 .description__items--subtitle {
-	font-size: 45px;
-	font-weight: bold;
-	padding-left: 5px;
+  font-size: 45px;
+  font-weight: bold;
 }
 .description__items--plus {
-	display: block;
-	padding: 10px 10px 0 5px;
-	font-size: 16px;
-	font-weight: normal;
+  font-size: 16px;
+  font-weight: normal;
 }
 .results {
-	display: flex;
-	margin: 0 auto;
-	padding: -20px 0;
-	justify-content: space-between;
-	align-items: flex-start;
-	}
-.upindex {
-	font-size: 20px;
-	vertical-align: super;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
 }
-.friendship {
-	margin: 2px auto;
-	border-top: 2px #eeeeee solid;
-	border-bottom: 2px #eeeeee solid;
-	width: 1100px;
-	padding: 45px 0;
+<<<<<<< Updated upstream
+.description__subtitle {
+  justify-content: center;
 }
-.friendship__links {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	align-content: flex-start;
-	padding-top: 0px;
-	background-color: #ffffff;
-}
-.friendship__links--academy {
-	border-right: 2px #cccccc solid;
-	padding: 0 50px 0 0;
-	height: 55px;
-}
-.friendship__links--barber {
-	border-right: 2px #cccccc solid;
-	padding: 0 50px 0 0;
-	height: 55px;
-}
-.friendship__links--pinky {
-	border-right: 2px #cccccc solid;
-	padding: 0 50px 0 0;
-	height: 55px;
-}
-.mapofpath {
-	display: flex;
-	justify-content: space-around;
-}
-.map__img {
-	padding: 0;
-	margin: 80px auto;
-	width: 100%;
-}
+.description__items--plus {
+=======
 .footer__bottom {
 display: flex;
 justify-content: space-around;
@@ -337,6 +317,7 @@ justify-content: space-around;
 >>>>>>> Stashed changes
 }
 .description__items--plus {
+>>>>>>> Stashed changes
   display: block;
   margin: 10px 0;
 }
