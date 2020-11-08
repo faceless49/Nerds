@@ -275,15 +275,18 @@ justify-content: space-around;
 	background-color: #e1e1e1;
 	width: 80px;
 	height: 80px;
-	
-}
+	margin-right: 10px;
+	}
 .discount {
 	padding-right: 310px;
+	
 }
 .makefriendship {
+	margin: 0;
 	font-size: 36px;
 	font-weight: bold;
 }
 .salediscount {
-	font-size: 22px;
+	font-size: 16px;
+	color: #767676;
 }
